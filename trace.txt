@@ -1,0 +1,186 @@
+État HTTP 500 – Erreur interne du serveur
+Type Rapport d'exception
+
+message Impossible de compiler la classe pour la JSP:
+
+description Le serveur a rencontré une erreur interne qui l'a empêché de satisfaire la requête.
+
+exception
+
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne : [1] dans le fichier jsp : [/index.jsp]
+page cannot be resolved to a type
+1: <% @ page language = "java" contentType = "text / html; charset = UTF-8"
+2:     pageEncoding = "UTF-8"
+3:     import = "java.util.Locale, java.util.Date, java.text.SimpleDateFormat"
+4: %>
+
+
+Une erreur s'est produite à la ligne : [1] dans le fichier jsp : [/index.jsp]
+Syntax error on token "language", VariableDeclaratorId expected after this token
+1: <% @ page language = "java" contentType = "text / html; charset = UTF-8"
+2:     pageEncoding = "UTF-8"
+3:     import = "java.util.Locale, java.util.Date, java.text.SimpleDateFormat"
+4: %>
+
+
+Une erreur s'est produite à la ligne : [1] dans le fichier jsp : [/index.jsp]
+language cannot be resolved to a type
+1: <% @ page language = "java" contentType = "text / html; charset = UTF-8"
+2:     pageEncoding = "UTF-8"
+3:     import = "java.util.Locale, java.util.Date, java.text.SimpleDateFormat"
+4: %>
+
+
+Une erreur s'est produite à la ligne : [1] dans le fichier jsp : [/index.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+1: <% @ page language = "java" contentType = "text / html; charset = UTF-8"
+2:     pageEncoding = "UTF-8"
+3:     import = "java.util.Locale, java.util.Date, java.text.SimpleDateFormat"
+4: %>
+
+
+Une erreur s'est produite à la ligne : [1] dans le fichier jsp : [/index.jsp]
+contentType cannot be resolved to a variable
+1: <% @ page language = "java" contentType = "text / html; charset = UTF-8"
+2:     pageEncoding = "UTF-8"
+3:     import = "java.util.Locale, java.util.Date, java.text.SimpleDateFormat"
+4: %>
+
+
+Une erreur s'est produite à la ligne : [1] dans le fichier jsp : [/index.jsp]
+Syntax error, insert ";" to complete Statement
+1: <% @ page language = "java" contentType = "text / html; charset = UTF-8"
+2:     pageEncoding = "UTF-8"
+3:     import = "java.util.Locale, java.util.Date, java.text.SimpleDateFormat"
+4: %>
+
+
+Une erreur s'est produite à la ligne : [2] dans le fichier jsp : [/index.jsp]
+pageEncoding cannot be resolved to a variable
+1: <% @ page language = "java" contentType = "text / html; charset = UTF-8"
+2:     pageEncoding = "UTF-8"
+3:     import = "java.util.Locale, java.util.Date, java.text.SimpleDateFormat"
+4: %>
+5: <! DOCTYPE html PUBLIC "- // W3C // DTD HTML 4.01 Transitional // EN" "w3.org/TR/html4/loose.dtd">
+
+
+Une erreur s'est produite à la ligne : [2] dans le fichier jsp : [/index.jsp]
+The left-hand side of an assignment must be a variable
+1: <% @ page language = "java" contentType = "text / html; charset = UTF-8"
+2:     pageEncoding = "UTF-8"
+3:     import = "java.util.Locale, java.util.Date, java.text.SimpleDateFormat"
+4: %>
+5: <! DOCTYPE html PUBLIC "- // W3C // DTD HTML 4.01 Transitional // EN" "w3.org/TR/html4/loose.dtd">
+
+
+Une erreur s'est produite à la ligne : [3] dans le fichier jsp : [/index.jsp]
+Syntax error on token "import", delete this token
+1: <% @ page language = "java" contentType = "text / html; charset = UTF-8"
+2:     pageEncoding = "UTF-8"
+3:     import = "java.util.Locale, java.util.Date, java.text.SimpleDateFormat"
+4: %>
+5: <! DOCTYPE html PUBLIC "- // W3C // DTD HTML 4.01 Transitional // EN" "w3.org/TR/html4/loose.dtd">
+6: <html>
+
+
+Une erreur s'est produite à la ligne : [3] dans le fichier jsp : [/index.jsp]
+Syntax error, insert ";" to complete Statement
+1: <% @ page language = "java" contentType = "text / html; charset = UTF-8"
+2:     pageEncoding = "UTF-8"
+3:     import = "java.util.Locale, java.util.Date, java.text.SimpleDateFormat"
+4: %>
+5: <! DOCTYPE html PUBLIC "- // W3C // DTD HTML 4.01 Transitional // EN" "w3.org/TR/html4/loose.dtd">
+6: <html>
+
+
+Une erreur s'est produite à la ligne : [12] dans le fichier jsp : [/index.jsp]
+SimpleDateFormat cannot be resolved to a type
+9:         <title> InsÃ©rez le titre ici </title>
+10:     </head>
+11:     <body>
+12: <% SimpleDateFormat f = new SimpleDateFormat ("EEEEE d MMMMM y - kk: mm", Locale.FRANCE); %>
+13: <% = f.format (nouvelle date ())%>
+14:     </body>
+15: </html>
+
+
+Une erreur s'est produite à la ligne : [12] dans le fichier jsp : [/index.jsp]
+SimpleDateFormat cannot be resolved to a type
+9:         <title> InsÃ©rez le titre ici </title>
+10:     </head>
+11:     <body>
+12: <% SimpleDateFormat f = new SimpleDateFormat ("EEEEE d MMMMM y - kk: mm", Locale.FRANCE); %>
+13: <% = f.format (nouvelle date ())%>
+14:     </body>
+15: </html>
+
+
+Une erreur s'est produite à la ligne : [12] dans le fichier jsp : [/index.jsp]
+Locale.FRANCE cannot be resolved to a type
+9:         <title> InsÃ©rez le titre ici </title>
+10:     </head>
+11:     <body>
+12: <% SimpleDateFormat f = new SimpleDateFormat ("EEEEE d MMMMM y - kk: mm", Locale.FRANCE); %>
+13: <% = f.format (nouvelle date ())%>
+14:     </body>
+15: </html>
+
+
+Une erreur s'est produite à la ligne : [13] dans le fichier jsp : [/index.jsp]
+Syntax error on token "=", delete this token
+10:     </head>
+11:     <body>
+12: <% SimpleDateFormat f = new SimpleDateFormat ("EEEEE d MMMMM y - kk: mm", Locale.FRANCE); %>
+13: <% = f.format (nouvelle date ())%>
+14:     </body>
+15: </html>
+
+
+Une erreur s'est produite à la ligne : [13] dans le fichier jsp : [/index.jsp]
+The method nouvelle() is undefined for the type index_jsp
+10:     </head>
+11:     <body>
+12: <% SimpleDateFormat f = new SimpleDateFormat ("EEEEE d MMMMM y - kk: mm", Locale.FRANCE); %>
+13: <% = f.format (nouvelle date ())%>
+14:     </body>
+15: </html>
+
+
+Une erreur s'est produite à la ligne : [13] dans le fichier jsp : [/index.jsp]
+Syntax error on token "date", delete this token
+10:     </head>
+11:     <body>
+12: <% SimpleDateFormat f = new SimpleDateFormat ("EEEEE d MMMMM y - kk: mm", Locale.FRANCE); %>
+13: <% = f.format (nouvelle date ())%>
+14:     </body>
+15: </html>
+
+
+Une erreur s'est produite à la ligne : [13] dans le fichier jsp : [/index.jsp]
+Syntax error, insert ";" to complete Statement
+10:     </head>
+11:     <body>
+12: <% SimpleDateFormat f = new SimpleDateFormat ("EEEEE d MMMMM y - kk: mm", Locale.FRANCE); %>
+13: <% = f.format (nouvelle date ())%>
+14:     </body>
+15: </html>
+
+
+Stacktrace:
+	org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:482)
+	org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+	org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:378)
+	org.apache.jasper.servlet.JspServlet.service(JspServlet.java:326)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+note La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de ce serveur.
+
+Apache Tomcat/9.0.43
